@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e2ddeb;
+}
+
+.header{
+    height: 40px;
+    width: 100vw;
+    background-color: #3399ff;
+}
+
+.botCamp{
+    margin-top: -4vh;
+    margin-left: 59vw;
+}
+.botCamp1{
+    margin-top: -3vh;
+    margin-left: 75vw;
+}
+.botCamp2{
+    margin-top: -3vh;
+    margin-left: 92vw;
+}
+.botCamp3{
+    margin-top: -2.4vh;
+    margin-left: 95vw;
+}
+.logoPos{
+    margin-top: 180px;
+    margin-left: 45vw;
+}
+.textboxclass {
+    height: 30px;
+    width: 300px;
+}
+.headerText{
+    color:white;
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.logoText{
+    color: #3399ff;
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 200px;
+    padding: 10px;
+}
+
+.middleRect{
+    background-color: white;
+    height: 100%;
+    width:20px;
+    margin-left: 50%;
+    margin-top: -115px;
+}
+
+.middleCircle:after{
+    content: ' \25CF';
+    font-size: 100px;
+    color: white;
+    margin-left: -20px;
+}
+
+.bodyContainer{
+    margin-top: 5%;
+}
+
+.bodyText{
+    font-family: Garamond;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.playerImg{
+    margin-left: 2%;
+    margin-bottom: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+#navigation {
+    width: 250px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weigth: bold;
+    margin-top: 20px;
+}
+
+#navigation li {
+    border-bottom: 30px solid #e2ddeb;
+}
+#navigation li a:link, #navigation li a:visited {
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    background-color: #ededed;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+#navigation li a:hover {
+    background-color: dodgerblue;
+    color: lime;
+}
+
+#navigation li1 a:link, #navigation li1 a:visited {
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    background-color: lightgreen;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 30px solid #e2ddeb;
+}
+#navigation li1 a:hover {
+    background-color: dodgerblue;
+    color: lime;
+}
+
+.line{
+    margin-left: 250px;
+    border-left: 2px solid black;
+    height: 82vh;
+    margin-top: -492px;
+}
+
+.bodyContainer{
+    padding: 0;
+    margin-top: -81vh;
+    margin-left: 250px;
+}
+
+.title{
+    margin-left: 5vw;
+    font-family: "Arial Black";
+    font-size: 40px;
+}
+
+
+.backButton{
+    font-size: 25px;
+    text-decoration: none;
+    text-decoration-color: black;
+    padding: 5px 20px 5px 20px;
+    background-color: ghostwhite;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 6px;
+    width:60px;
+}
+
+.classforButton{
+    margin-left: 60vw;
+}
+
+td{
+    border: 1px #000000 solid;
+    background-color: #FFFFFF;
+    padding: 5px;
+    cursor: crosshair;
+}
+td:hover{
+    background-color: blue;
+}
+
+.tournments{
+    display: block;
+    margin-top: 50px;
+    margin-left: 6vw;
+    height: 50vh;
+    overflow-y: scroll;
+    width:410px;
+}
